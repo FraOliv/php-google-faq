@@ -8,3 +8,13 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 @include "data.php";
 
 
+foreach ($data as $content) {
+  /*   var_dump($content); */
+    foreach($content as $element){
+        var_dump($element);
+    }
+    
+  
+}
+
+?>
